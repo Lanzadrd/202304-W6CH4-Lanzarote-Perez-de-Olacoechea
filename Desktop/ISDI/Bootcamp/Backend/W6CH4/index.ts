@@ -4,7 +4,7 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const PORT = process.env.PORT || "5400";
+const PORT = process.env.PORT || "5500";
 
 const server = http.createServer((req, res) => {
   const parseUrl = url.parse(req.url!);
